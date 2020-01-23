@@ -19,6 +19,28 @@ get_header(); ?>
 				<?php the_content(); ?>
 			</div>
 		</div>
+		<div class="outline text-center">
+			<div class="grid-container">
+				<div class="grid-x grid-margin-x ">
+					<!-- Pearl Street Church-->
+					<div class="cell large-offset-2 large-8">
+						<h4>Tech tools</h4>
+						<p>For my technical background, I have worked with tools such as Git, Drupal, WordPress, NPM, Docker, Composer, Homebrew, Office Products, Bootstrap, Foundation 6... and the list goes on.</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-x grid-margin-x">
+				<div class="cell grid-x grid-padding-x small-up-3 medium-up-4 large-up-7">
+					<div class="cell"><i class="icon-large fab fa-github-square"></i></div>
+					<div class="cell"><i class="icon-large fab fa-drupal"></i></div>
+					<div class="cell"><i class="icon-large fab fa-wordpress-simple"></i></div>
+					<div class="cell"><i class="icon-large fab fa-npm"></i></div>
+					<div class="cell"><i class="icon-large fab fa-windows"></i></div>
+					<div class="cell"><i class="icon-large fab fa-docker"></i></div>
+					<div class="cell"><i class="icon-large fab fa-bootstrap"></i></div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<?php 
 		endwhile; else: 
@@ -31,7 +53,7 @@ get_header(); ?>
 		<div class="grid-x grid-margin-x">
 			<div class="cell center">
 				<span class="drop-quote"><?php echo $featured_quote;?></span>
-				
+
 			</div>
 		</div>
 	</div>
@@ -77,8 +99,9 @@ get_header(); ?>
 				<a class="outline-button-black" href="http://pearlstreetchurch.org/" target=_blank>Visit Site</a>
 
 			</div>
-
+			<hr>
 		</div>
+		<hr>			
 	</div>
 </section>
 <section id="blog" class="roomy blue-bleed">
